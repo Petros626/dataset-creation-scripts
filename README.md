@@ -1,5 +1,7 @@
 ## Python scripts for creating the dataset
 
+This repository contains scripts to create images or a data set with a compatible camera for the Raspberry Pi. The API used is [PiCamera2](https://github.com/raspberrypi/picamera2).
+
 Manually take and save pictures:
 ```python
 ir_cut_picamera2.py: 
@@ -26,4 +28,4 @@ sudo python3 ir_cut_picamera2.py --imgdir=images --res=1920x1080
 sudo python3 ir_cut_picamera2_oop.py --imgdir=images --res=1920x1080
 ```
 
-The last script needs the destination, where the calibration images for [OpenCV](https://github.com/opencv/opencv) [Camera Calibration](https://docs.opencv.org/4.x/dc/dbb/tutorial_py_calibration.html) get saved. Additionally you can adjust the time before a picture is taken, to position the chessboard before taking the image. To achieve a sufficient accuracy it's recommended to take between 10-20 images of the chessboard.
+
