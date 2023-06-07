@@ -1,4 +1,4 @@
-## Python scripts for creating the dataset
+## Python scripts for creating several images or a dataset
 
 This repository contains scripts to create images or a data set with a compatible camera for the Raspberry Pi. The API used is [PiCamera2](https://github.com/raspberrypi/picamera2).
 
