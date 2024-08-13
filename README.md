@@ -12,11 +12,14 @@ Same as above as OOP approach (just for learning purposes):
 ir_cut_picamera2_oop.py:
 ```
 
-The first script is used to manually take and save pictures. The second is a copy of the first but with an object-oriented approach. 
+The first script is used to manually take and save pictures. The second is a copy of the first but with an object-oriented approach. With the third script you can take time triggered images.
+```python
+ir_cut_picamera2_timer.py:
+```
 
 
 ## Use of the Scripts
-Both scripts need the folder, where the taken images should be saved. If no folder is created before and passed as argument, the script will automatically create a default folder called "images". The default resolution is 1920x1080, if you want to change it don't forget to specify WxH with x.
+All scripts need the folder, where the taken images should be saved. If no folder is created before and passed as argument, the script will automatically create a default folder called "images". The default resolution is 1920x1080, if you want to change it don't forget to specify WxH with x.
 
 **Note**: The 'sudo' command is required for permissions of the package [keyboard](https://github.com/boppreh/keyboard)
 
@@ -26,6 +29,10 @@ sudo python3 ir_cut_picamera2.py --imgdir=images --res=1920x1080
 
 ```python
 sudo python3 ir_cut_picamera2_oop.py --imgdir=images --res=1920x1080
+```
+
+```python 
+sudo python3 ir_cut_picamera2_timer.py --imgdir=images --res=1920x1080
 ```
 
 
